@@ -19,6 +19,8 @@ Input: nums = [2,-1,2], k = 3
 Output: 3
 
 
+Thought process:
+
 BACK: among all future left boundaries, keep only
       candidates that could improve the answer
       → discard l1 when P[l2] <= P[l1] (l2 is shorter AND larger sum)
