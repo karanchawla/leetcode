@@ -11,7 +11,7 @@ Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
 
 
 class Solution:
-    def longestOnes(self, nums: List[int], k: int) -> int:
+    def longestOnes(self, nums: list[int], k: int) -> int:
         max_ones = 0
         left = 0
         num_zeros = 0
